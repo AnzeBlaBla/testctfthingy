@@ -1,4 +1,4 @@
-module github.com/scrazy77/plugin-simplecache-nocache
+module github.com/AnzeBlaBla/testctfthingy
 
 go 1.15
 

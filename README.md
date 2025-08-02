@@ -16,7 +16,7 @@ Static:
   token="xxx"
 
 [experimental.plugins.cache]
-  modulename = "github.com/scrazy77/plugin-simplecache-nocache"
+  modulename = "github.com/AnzeBlaBla/testctfthingy"
   version = "v0.1.4"
 ```
 

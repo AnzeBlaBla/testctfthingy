@@ -100,6 +100,11 @@ func (m *cache) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		var data cacheData
 
 		err := json.Unmarshal(b, &data)
+
+		log.Printf("Cache hit for key: %s", key)
+		log.Printf("Raw data: %s", string(b))
+		log.Printf("Data: %+v", data)
+
 		if err != nil {
 			cs = cacheErrorStatus
 		} else {

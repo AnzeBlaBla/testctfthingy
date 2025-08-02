@@ -17,4 +17,4 @@ pilot:
 experimental:
   devPlugin:
     goPath: /plugins/
-    moduleName: github.com/scrazy77/plugin-simplecache-nocache
+    moduleName: github.com/AnzeBlaBla/testctfthingy

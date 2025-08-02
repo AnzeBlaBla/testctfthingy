@@ -15,7 +15,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./traefik.yaml:/etc/traefik/traefik.yaml
       - ./traefik-routers.yaml:/etc/traefik-config/traefik-routers.yaml
-      - .:/plugins/src/github.com/scrazy77/plugin-simplecache-nocache
+      - .:/plugins/src/github.com/AnzeBlaBla/testctfthingy
   httpecho:
     image: hashicorp/http-echo:0.2.3
     command: ["-text", 'foo']
